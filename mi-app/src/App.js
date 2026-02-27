@@ -5,8 +5,17 @@ class App extends Component {
     return (
       <div>
         <h1>Hola Mundo!</h1>
-        <p>!Bienvenidos a los primeros pasos con React</p>
+        <p>Bienvenidos a los primeros pasos con React</p>
+        <OtroSaludo />
       </div>
+    )
+  }
+}
+
+class OtroSaludo extends Component {
+  render () {
+    return (
+      <p>Hola desde otro componente</p>
     )
   }
 }
